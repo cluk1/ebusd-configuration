@@ -36,7 +36,7 @@ r,,xUnknown25,,,,,2500,,,HEX:*,,,
 r,,HcEmergencyTemperature,,,,,2600,,,tempv,,,Emergency operation temperature
 r;w,,HwcChargeHysteresis,hysteresis cylinder charge,,,,2700,,,calibrationv,,,hysteris storage tank loading
 r;w,,HwcChargeOffset,offset cylinder charge,,,,2900,,,calibrationv,,,storage tank loading. Offset
-r;w,,HwcLegionellaTime,,,,,2A00,,,HTM,,,Time hot water legionella run is scheduled (when HwcLegionellaDay is not 0)
+r;w,,HwcLegionellaTime,,,,,2A00,,,startTime,,,Time hot water legionella run is scheduled (when HwcLegionellaDay is not 0)
 r;w,,HwcLegionellaDay,,,,,2B00,,,daysel2,,,Day hot water legionella run is scheduled
 r,,MaintenanceDate,next maintenance,,,,2C00,,,date,,,date next maintenance
 r;w,,OffsetOutsideTemp,,,,,2D00,,,tempv,,K,Offset outside temperature (used to determined DisplayedOutsideTemp)
